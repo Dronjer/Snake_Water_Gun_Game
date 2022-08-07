@@ -65,7 +65,3 @@ print("The number of times the game was draw",Tie)
 print("The number of time you won", You_Won)
 print("The number of time computer won", Computer_Won)
 print("Count of wrong entries", Wrong_input)
-
-
-
-
