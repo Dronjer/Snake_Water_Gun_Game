@@ -1,5 +1,7 @@
 import random
-
+# Import random for random.choices() 
+# The code is kept simple and long so that one can unerstand it easily.
+# Contact me if you have any concerns. 
 print("Welcome to Snake Water and Gun Game. ")
 print("For snake, water and gun type s,w,g respectively.")
 print("The game is case sensitive.")
@@ -11,7 +13,7 @@ Tie = 0
 Computer_Won = 0
 You_Won = 0
 Wrong_input = 0
-
+# initalising the parameters to count the wins and draws at the end of the game.
 i = 1
 while i <= 10:
     print("Enter the word you choose",l)
@@ -57,6 +59,8 @@ while i <= 10:
         Wrong_input += 1
     i += 1
 
+ # One can customize the if else statement to optimize the code more and shorter.
+    
 print("The number of times the game was draw",Tie)
 print("The number of time you won", You_Won)
 print("The number of time computer won", Computer_Won)
