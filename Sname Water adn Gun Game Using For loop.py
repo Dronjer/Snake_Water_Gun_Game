@@ -6,6 +6,7 @@ Player2 = ["S","W","G"]
 tabulate_wins = 0
 tabulate_ties = 0
 tabulate_losses = 0
+
 for i in range(1,11):
     print("Trial number by the user", i)
     P1 = input()
@@ -42,14 +43,6 @@ for i in range(1,11):
             print("P1 wins the match")
             tabulate_wins += 1
 
-
-
 print(tabulate_losses)
 print(tabulate_wins)
 print(tabulate_ties)
-
-
-
-
-
-
