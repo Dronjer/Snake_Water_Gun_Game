@@ -1,5 +1,7 @@
 import random
+# Import random to use random.choice and Used for loop for maximum of 10 trails. 
 print("This is Snake (S), Water(W) and  Gun(G) Game")
+# A list is created named as Player2
 Player2 = ["S","W","G"]
 tabulate_wins = 0
 tabulate_ties = 0
