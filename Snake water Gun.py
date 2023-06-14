@@ -2,13 +2,12 @@ import random
 # Import random for random.choices() 
 # The code is kept simple and long so that one can unerstand it easily.
 # Contact me if you have any concerns. 
-print("Welcome to Snake Water and Gun Game. ")
-print("For snake, water and gun type s,w,g respectively.")
-print("The game is case sensitive.")
-print("This game will give you total of 10 iterations.")
+print("Welcome to Snake Water and Gun Game. \n")
+"For snake, water and gun type s,w,g respectively. \n")
+"The game is case sensitive. \n")
+"This game will give you total of 10 iterations.")
 l = ["s","w","g"]
 k = random.choice(l)
-
 Tie = 0
 Computer_Won = 0
 You_Won = 0
@@ -58,9 +57,7 @@ while i <= 10:
         print("You have given the wrong input.")
         Wrong_input += 1
     i += 1
-
- # One can customize the if else statement to optimize the code more and shorter.
-    
+# One can customize the if else statement to optimize the code more and shorter.
 print("The number of times the game was draw",Tie)
 print("The number of time you won", You_Won)
 print("The number of time computer won", Computer_Won)
